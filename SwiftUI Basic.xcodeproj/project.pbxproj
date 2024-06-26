@@ -11,6 +11,13 @@
 		4E0268B52C230354006ABB65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0268B42C230354006ABB65 /* ContentView.swift */; };
 		4E0268B72C230355006ABB65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0268B62C230355006ABB65 /* Assets.xcassets */; };
 		4E0268BA2C230355006ABB65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0268B92C230355006ABB65 /* Preview Assets.xcassets */; };
+		4E0268C52C23D861006ABB65 /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0268C42C23D861006ABB65 /* ColorBasic.swift */; };
+		4E0268C72C244B50006ABB65 /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0268C62C244B50006ABB65 /* GradientBasic.swift */; };
+		4E0268C92C246773006ABB65 /* IconBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0268C82C246773006ABB65 /* IconBasic.swift */; };
+		4E0268CB2C246B16006ABB65 /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0268CA2C246B16006ABB65 /* ImageBasic.swift */; };
+		4ED8551E2C251C6900D250DC /* SheepBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8551D2C251C6900D250DC /* SheepBasic.swift */; };
+		4ED855202C251C8200D250DC /* SheepBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8551F2C251C8200D250DC /* SheepBasic2.swift */; };
+		4ED855242C290ECA00D250DC /* Pratice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED855232C290ECA00D250DC /* Pratice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		4E0268B42C230354006ABB65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E0268B62C230355006ABB65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E0268B92C230355006ABB65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E0268C42C23D861006ABB65 /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
+		4E0268C62C244B50006ABB65 /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
+		4E0268C82C246773006ABB65 /* IconBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBasic.swift; sourceTree = "<group>"; };
+		4E0268CA2C246B16006ABB65 /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
+		4ED8551D2C251C6900D250DC /* SheepBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepBasic.swift; sourceTree = "<group>"; };
+		4ED8551F2C251C8200D250DC /* SheepBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepBasic2.swift; sourceTree = "<group>"; };
+		4ED855232C290ECA00D250DC /* Pratice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pratice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				4E0268B22C230354006ABB65 /* SwiftUI_BasicApp.swift */,
 				4E0268B42C230354006ABB65 /* ContentView.swift */,
+				4E0268C42C23D861006ABB65 /* ColorBasic.swift */,
+				4E0268C62C244B50006ABB65 /* GradientBasic.swift */,
+				4E0268C82C246773006ABB65 /* IconBasic.swift */,
+				4E0268CA2C246B16006ABB65 /* ImageBasic.swift */,
+				4ED8551D2C251C6900D250DC /* SheepBasic.swift */,
+				4ED8551F2C251C8200D250DC /* SheepBasic2.swift */,
+				4ED855232C290ECA00D250DC /* Pratice.swift */,
 				4E0268B62C230355006ABB65 /* Assets.xcassets */,
 				4E0268B82C230355006ABB65 /* Preview Content */,
 			);
@@ -137,7 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED8551E2C251C6900D250DC /* SheepBasic.swift in Sources */,
+				4E0268CB2C246B16006ABB65 /* ImageBasic.swift in Sources */,
+				4ED855242C290ECA00D250DC /* Pratice.swift in Sources */,
 				4E0268B52C230354006ABB65 /* ContentView.swift in Sources */,
+				4E0268C52C23D861006ABB65 /* ColorBasic.swift in Sources */,
+				4E0268C92C246773006ABB65 /* IconBasic.swift in Sources */,
+				4ED855202C251C8200D250DC /* SheepBasic2.swift in Sources */,
+				4E0268C72C244B50006ABB65 /* GradientBasic.swift in Sources */,
 				4E0268B32C230354006ABB65 /* SwiftUI_BasicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

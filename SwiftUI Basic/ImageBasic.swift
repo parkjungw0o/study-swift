@@ -9,7 +9,21 @@ import SwiftUI
 
 struct ImageBasic: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20){
+            Image("Cat")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 300, height: 300)
+                .cornerRadius(150)
+            
+            Divider()   // 선
+            
+            Image("Cat")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 300, height: 300)
+                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+        }
     }
 }
 

@@ -9,7 +9,11 @@ import SwiftUI
 
 struct Color: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20){
+            
+            Text("Basic Color")
+                .font(.title)
+        }
     }
 }
 
